@@ -1,105 +1,3 @@
-<p align="center">
-<img align="center" src="doc/imgs/logo.png", width=1600>
-<p>
-    
---------------------------------------------------------------------------------
-
-English | [简体中文](./README_cn.md)
-
-[![Build Status](https://travis-ci.org/PaddlePaddle/Paddle.svg?branch=develop)](https://travis-ci.org/PaddlePaddle/Paddle)
-[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](https://paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html)
-[![Documentation Status](https://img.shields.io/badge/中文文档-最新-brightgreen.svg)](https://paddlepaddle.org.cn/documentation/docs/zh/guides/index_cn.html)
-[![Release](https://img.shields.io/github/release/PaddlePaddle/Paddle.svg)](https://github.com/PaddlePaddle/Paddle/releases)
-[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
-
-Welcome to the PaddlePaddle GitHub.
-
-PaddlePaddle, as the only independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms.
-PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 2.3 million developers. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
-
-
-
-## Installation
-
-### Latest PaddlePaddle Release: [v2.0](https://github.com/PaddlePaddle/Paddle/tree/release/2.0)
-
-Our vision is to enable deep learning for everyone via PaddlePaddle.
-Please refer to our [release announcement](https://github.com/PaddlePaddle/Paddle/releases) to track the latest features of PaddlePaddle.
-### Install Latest Stable Release:
-```
-# CPU
-pip install paddlepaddle
-# GPU
-pip install paddlepaddle-gpu
-
-```
-More infomation about installation, please view [Quick Install](https://www.paddlepaddle.org.cn/install/quick)
-
-Now our developers can acquire Tesla V100 online computing resources for free. If you create a program by AI Studio, you will obtain 10 hours to train models online per day. [Click here to start](https://aistudio.baidu.com/aistudio/index).
-
-## FOUR LEADING TECHNOLOGIES
-
-- **Agile Framework for Industrial Development of Deep Neural Networks**
-
-    The PaddlePaddle deep learning framework facilitates the development while lowering the technical burden, through leveraging a programmable scheme to architect the neural networks. It supports both declarative programming and imperative programming with both development flexibility and high runtime performance preserved.  The neural architectures could be automatically designed by algorithms with better performance than the ones designed by human experts.
-
-
--  **Support Ultra-Large-Scale Training of Deep Neural Networks**
-
-    PaddlePaddle has made breakthroughs in ultra-large-scale deep neural networks training. It launched the world's first large-scale open-source training platform that supports the training of deep networks with 100 billions of features and trillions of parameters using data sources distributed over hundreds of nodes. PaddlePaddle overcomes the online deep learning challenges for ultra-large-scale deep learning models, and further achieved the real-time model updating with more than 1 trillion parameters.
-     [Click here to learn more](https://github.com/PaddlePaddle/Fleet)
-
-
-- **High-Performance Inference for Multi Terminal and Multi Platform Deployments**
-
-    PaddlePaddle is not only compatible with other open-source frameworks for models training, but also works well on the ubiquitous developments, varying from platforms to devices.Native inference library for high performance server and cloud inference [Paddle Inference](https://paddle-inference.readthedocs.io/en/latest/product_introduction/summary.html). A service-oriented reasoning framework suitable for high-level functions such as automatic service and model management [Paddle Serving](https://github.com/PaddlePaddle/Serving). Lightweight inference engine for mobile terminal and Internet of things [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite).Front end inference engine for browser inference and applet [Paddle.js](https://www.paddlepaddle.org.cn/paddle/paddlejs). More specifically, PaddlePaddle accelerates the inference procedure with the fastest speed-up. Note that, a recent breakthrough of inference speed has been made by PaddlePaddle on Huawei's Kirin NPU, through the hardware/software co-optimization.
-     
-     
-- **Industry-Oriented Models and Libraries with Open Source Repositories**
-
-     PaddlePaddle includes and maintains more than 100 mainstream models that have been practiced and polished for a long time in the industry. Some of these models have won major prizes from key international competitions. In the meanwhile, PaddlePaddle has further more than 200 pre-training models (some of them with source codes) to facilitate the rapid development of industrial applications.
-     [Click here to learn more](https://github.com/PaddlePaddle/models)
-     
-
-## Documentation
-
-We provide [English](https://www.paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html) and
-[Chinese](https://www.paddlepaddle.org.cn/documentation/docs/zh/guide/index_cn.html) documentation.
-
-- [Guides](https://www.paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html)
-
-  You might want to start from how to implement deep learning basics with PaddlePaddle.
-
-- [Practice](https://www.paddlepaddle.org.cn/documentation/docs/zh/tutorial/index_cn.html)
-
-  So far you have already been familiar with Fluid. And the next step should be building a more efficient model or inventing your original Operator. 
-
-- [API Reference](https://www.paddlepaddle.org.cn/documentation/docs/en/api/index_en.html)
-
-   Our new API enables much shorter programs.
-
-- [How to Contribute](https://www.paddlepaddle.org.cn/documentation/docs/en/guides/08_contribution/index_en.html)
-
-   We appreciate your contributions!
-
-## Communication
-
-- [Github Issues](https://github.com/PaddlePaddle/Paddle/issues): bug reports, feature requests, install issues, usage issues, etc.
-- QQ discussion group: 793866180 (PaddlePaddle).
-- [Forums](https://ai.baidu.com/forum/topic/list/168?pageNo=1): discuss implementations, research, etc.
-
-## Copyright and License
-PaddlePaddle is provided under the [Apache-2.0 license](LICENSE).
-    
-    
-    
-    
-    
-<p align="center">
-<img align="center" src="doc/imgs/logo.png", width=1600>
-<p>
-
---------------------------------------------------------------------------------
 
 <p align="center">
 <img align="center" src="doc/imgs/logo.png", width=1600>
@@ -149,9 +47,10 @@ PaddlePaddle用户可领取**免费Tesla V100在线算力资源**，训练模型
     [查看详情](https://github.com/PaddlePaddle/Fleet)
     
 
-- **多端多平台部署的高性能推理引擎**
+- **支持多端多平台的高性能推理部署工具**
 
-    飞桨不仅兼容其他开源框架训练的模型，而且高性能的推理部署也可支持不同的场景。适用于高性能服务器及云端推理的原生推理库 [Paddle Inference](https://paddle-inference.readthedocs.io/en/latest/product_introduction/summary.html)，适用于自动服务、模型管理等高阶功能的服务化推理框架 [Paddle Serving](https://github.com/PaddlePaddle/Serving)，适用于移动端、物联网的轻量化推理引擎 [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite)，适用于浏览器推理、小程序的前端推理引擎 [Paddle.js](https://www.paddlepaddle.org.cn/paddle/paddlejs)。同时，飞桨的推理速度也是全面领先的。尤其经过了跟华为麒麟NPU的软硬一体优化，使得飞桨在NPU上的推理速度进一步突破。
+    飞桨不仅广泛兼容第三方开源框架训练的模型部署，并且为不同的场景的生产环境提供了完备的推理引擎，包括了适用于高性能服务器及云端推理的原生推理库 [Paddle Inference](https://paddle-inference.readthedocs.io/en/latest/product_introduction/summary.html)，面向分布式、流水线生产环境下自动上云、A/B测试等高阶功能的服务化推理框架 [Paddle Serving](https://github.com/PaddlePaddle/Serving)，针对于移动端、物联网场景的轻量化推理引擎 [Paddle Lite](https://github.com/PaddlePaddle/Paddle-Lite)以及在浏览器、小程序等环境下使用的前端推理引擎 [Paddle.js](https://www.paddlepaddle.org.cn/paddle/paddlejs)。同时，透过与不同场景下的主流硬件高度适配优化及异构计算的支持, 飞桨的推理性能也领先绝大部分的主流实现。
+
 
 
 - **面向产业应用，开源开放覆盖多领域的工业级模型库。**
